@@ -50,4 +50,3 @@ This is an example of a literature review Notebook and output data from 2024.
 
 An example of #semanticClimate tooling being used on the question of [Climate Justice](https://github.com/semanticClimate/climate-justice-lit-review/blob/main/README.md), 2024.
 
-
