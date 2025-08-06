@@ -1,11 +1,20 @@
 cff-version: 1.2.0
-message: "A Jupyter Notebook from #semanticClimate - Liberating knowledge from climate-related reports"
+message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Worthington"
-  given-names: "Simon"
+- family-names: "Simon"
+  given-names: "Worthington"
   orcid: "https://orcid.org/0000-0002-8579-9717"
-title: "Assisted Literature Review"
+- family-names: "Kumari"
+  given-names: "Renu"
+  orcid: "https://orcid.org/0000-0002-9451-7814"
+- family-names: "Murray-Rust"
+  given-names: "Peter"
+  orcid: "https://orcid.org/0000-0003-3386-3972"  
+- family-names: "Yadav"
+  given-names: "Gitanjali"
+  orcid: "https://orcid.org/0000-0001-6591-9964"
+title: "AI Assisted Literature Reviews (ALR) Course 2025"
 version: 0.0.1
-doi: 
-date-released: 2025-07-17
+doi: 10.5281/zenodo.16754743
+date-released: 2025-07-22
 url: "https://github.com/semanticClimate/assisted-literature-review/"
