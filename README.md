@@ -20,7 +20,7 @@ From: Team \#semanticClimate — https://semanticclimate.github.io/p/en/
 
 First release: 2025-07-22
 
-You are welcome to use the experimental framework on your own AI assisted literature review. Please get in contact on the [discussion board](https://github.com/orgs/semanticClimate/discussions/22 ) if you have comments or questions.
+You are welcome to use the experimental framework on your own AI assisted literature review. Please get in contact on the [discussion board](https://github.com/orgs/semanticClimate/discussions/22) if you have comments or questions.
 
 The course was run as part of Force11 Scholarly Communications Institute (FSCI) in collaboration with UCLA Library, see course: https://force11.org/fsci/post/fsci-2025-courses-abstracts/#e01 — E01 \— AI-Assisted Literature Review on Open Access Repositories: Including Image and Object Detection
 
