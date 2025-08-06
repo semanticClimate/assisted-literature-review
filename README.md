@@ -1,10 +1,16 @@
-# Assisted Literature Reviews (ALR): Using Globally Equitable AI LLMs on Open Access Research Literature Repositories
+# AI Assisted Literature Reviews (ALR) Course 2025
+
+## Using Globally Equitable AI LLMs on Open Access Research Literature Repositories
 
 — *For conducting a rapid scoping literature review*
 
+From: Team \#semanticClimate — https://semanticclimate.github.io/p/en/
+
+First release: 2025-07-22
+
 [Repo and info](https://github.com/semanticClimate/assisted-literature-review) | [Discussion and support](https://github.com/orgs/semanticClimate/discussions/22)
 
-Software citation information: [CITATION.cff](CITATION.cff) | Course outline: \<DOI>
+Course outline: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16754743.svg)](https://doi.org/10.5281/zenodo.16754743) | Software citation information: [CITATION.cff](CITATION.cff)
 
 Course units are:
 
@@ -16,10 +22,6 @@ Course units are:
 1. Named entity recognition (NER): Entities and concepts
 1. LLM and RAG: For PDF and HTML
 
-From: Team \#semanticClimate — https://semanticclimate.github.io/p/en/
-
-First release: 2025-07-22
-
 You are welcome to use the experimental framework on your own AI assisted literature review. Please get in contact on the [discussion board](https://github.com/orgs/semanticClimate/discussions/22) if you have comments or questions.
 
 The course was run as part of Force11 Scholarly Communications Institute (FSCI) in collaboration with UCLA Library, see course: https://force11.org/fsci/post/fsci-2025-courses-abstracts/#e01 — E01 \— AI-Assisted Literature Review on Open Access Repositories: Including Image and Object Detection
@@ -27,16 +29,6 @@ The course was run as part of Force11 Scholarly Communications Institute (FSCI) 
 Thank you to the FSCI organisers and technical support team for the smooth running of the sessions.
 
 Courses dates: Tuesday 2025-7-22, Wednesday 2025-7-23, and Thursday 2025-7-24. Each class will have a Zoom session at the same time on each of the three days, as specified in their course abstracts. The courses are listed in Pacific time (UTC-7)
-
-## Instructor
-
-Course chair: Simon Worthington, [Climate Knowledge Graph](https://github.com/TIBHannover/climate-knowledge-graph) project lead (TIB — Leibniz Information Centre for Science and Technology and University Library) and \#semanticClimate member.
-
-## Contributors
-
-Gitanjali Yadav, National Institute of Plant Genome Research (NIPGR) (Co-course chair); Peter Murray-Rust, Cambridge University (Co-course chair); Renu Kumari, National Institute of Plant Genome Research (NIPGR) (Co-instructor).
-
-Additional Contributors: Shabnam Barbhuiya, Jamia Millia Islamia University (Co-instructor); Ambreen Hamadani, Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir (SKUAST-K) (Co-instructor); Moobashara Jawed, Jamia Millia Islamia University (Co-instructor); Anna Rahr, Hannover University of the Applied Science and Arts, and TIB (Co-instructor); Avika Joshi, Delhi Technological University; Deepika Mandakala, Vignan's Institute of Information Technology (A), Visakhapatnam; Anudev Suresh, Jamia Millia Islamia University; Haarthi Vallabhaneni, DVR & Dr. HS MIC College of Technology; Saurav Mishra, National Institute of Technology; Anushka Kushwaha, NIIT University; Malavika Balachandran, University of Toronto; Harshita Mahawar, Amity University, Noida; Shaik Zainab, Anurag University, Hyderabad.
 
 ## Abstract
 
@@ -53,6 +45,14 @@ All instruction is carried out using CoLab Jupyter Notebooks so no complicated i
 The learning points covered allow for familiarity with AI tooling for literature search and as a package that can be reused by students and researchers. The learning package already exists as a fully documented workflow, with existing CoLab Notebooks — all deposited in Zenodo with DOIs. The intention is to give participants experience and methodologies to evaluate and integrate AI LLM RAG into their workflows. AI is evolving so fast that focusing on one set of fixed components in a tech stack is not possible, instead the focus is on concept and evaluation.
 
 The focus for the class is a scoping literature review. The results of the AI Assisted Literature Review workflow taught in the class are a literature review report, including: a textual summary, summaries of papers as a data table, the complete full-text articles downloaded, a reproducible and replicable CoLab Notebook with all the software and code used in the review. The resulting content package can be used in papers, reporting, dashboards, CI pipelines, and for further data analysis.
+
+## Contributors
+
+Course chair: Simon Worthington, [Climate Knowledge Graph](https://github.com/TIBHannover/climate-knowledge-graph) project lead (TIB — Leibniz Information Centre for Science and Technology and University Library) and \#semanticClimate member.
+
+Gitanjali Yadav, National Institute of Plant Genome Research (NIPGR) (Co-course chair); Peter Murray-Rust, Cambridge University (Co-course chair); Renu Kumari, National Institute of Plant Genome Research (NIPGR) (Co-instructor).
+
+Additional Contributors: Shabnam Barbhuiya, Jamia Millia Islamia University (Co-instructor); Ambreen Hamadani, Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir (SKUAST-K) (Co-instructor); Moobashara Jawed, Jamia Millia Islamia University (Co-instructor); Anna Rahr, Hannover University of the Applied Science and Arts, and TIB (Co-instructor); Avika Joshi, Delhi Technological University; Deepika Mandakala, Vignan's Institute of Information Technology (A), Visakhapatnam; Anudev Suresh, Jamia Millia Islamia University; Haarthi Vallabhaneni, DVR & Dr. HS MIC College of Technology; Saurav Mishra, National Institute of Technology; Anushka Kushwaha, NIIT University; Malavika Balachandran, University of Toronto; Harshita Mahawar, Amity University, Noida; Shaik Zainab, Anurag University, Hyderabad.
 
 **Audience:** Researchers, librarians, publishers
 
