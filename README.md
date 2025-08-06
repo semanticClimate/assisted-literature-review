@@ -1,6 +1,6 @@
 # Assisted Literature Reviews (ALR): Using Globally Equitable AI LLMs on Open Access Research Literature Repositories
 
-— *For consucting a rapid scoping literature review*
+— *For conducting a rapid scoping literature review*
 
 [Repo and info](https://github.com/semanticClimate/assisted-literature-review) | [Discussion and support](https://github.com/orgs/semanticClimate/discussions/22)
 
