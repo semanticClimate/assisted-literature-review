@@ -98,14 +98,14 @@ Peter Murray Rust
 
 Shabnam Barbhuiya
 
-- [Notebook] – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16526790.svg)](https://doi.org/10.5281/zenodo.16526790)
+- Notebook – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16526790.svg)](https://doi.org/10.5281/zenodo.16526790)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/blob/main/presentations/Day_2_FSCI2025_SUMMARIZATION.pdf)
 
 ## Image classification
 
 Ambreen Hamadani
 
-- [Notebook_Vision Transformers] – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16734915.svg)](https://doi.org/10.5281/zenodo.16734915)
+- Notebook_Vision Transformers – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16734915.svg)](https://doi.org/10.5281/zenodo.16734915)
 
 ## Image extraction
 
@@ -117,14 +117,14 @@ Avika Joshi
 
 Moobashara Jawed
 
-- [Notebook] – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16559426.svg)](https://doi.org/10.5281/zenodo.16559426)
+- Notebook – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16559426.svg)](https://doi.org/10.5281/zenodo.16559426)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/blob/main/presentations/DAY_3_FSCI2025_NER.pptx)
 
 ## LLM and RAG: For PDF and HTML
 
 Shabnam Barbhuiya and Anna Rahr
 
-- [Notebook for LLM RAG from PDF/XML] – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16675979.svg)](https://doi.org/10.5281/zenodo.16675979)
+- Notebook for LLM RAG from PDF/XML – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16675979.svg)](https://doi.org/10.5281/zenodo.16675979)
 - [Repo including Notebook for LLM RAG from HTML](https://github.com/semanticClimate/KISSKI-RAG-4-IPCC) – *not shown in the course*
 
 ## Video recordings for three days (one hour each)
@@ -234,8 +234,8 @@ Open
 * Institutional knowledge retention  
 * Support the knowledge commons and biblio-diversity
 
-
 ## LICENSE
 
 Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ | License information: [LICENSE](LICENSE)
+
 
