@@ -4,7 +4,7 @@
 
 — *For conducting rapid scoping literature reviews*
 
-From: Team \#semanticClimate — https://semanticclimate.github.io/p/en/
+From: Team \#semanticClimate – https://semanticclimate.github.io/p/en/
 
 First release: 2025-07-22
 
@@ -24,7 +24,7 @@ Course units are:
 
 You are welcome to use the experimental framework on your own AI assisted literature review. Please get in contact on the [discussion board](https://github.com/orgs/semanticClimate/discussions/22) if you have comments or questions.
 
-The course was run as part of Force11 Scholarly Communications Institute (FSCI) in collaboration with UCLA Library, see course: https://force11.org/fsci/post/fsci-2025-courses-abstracts/#e01 — E01 \— AI-Assisted Literature Review on Open Access Repositories: Including Image and Object Detection
+The course was run as part of Force11 Scholarly Communications Institute (FSCI) in collaboration with UCLA Library, see course: https://force11.org/fsci/post/fsci-2025-courses-abstracts/#e01 — E01  AI-Assisted Literature Review on Open Access Repositories: Including Image and Object Detection
 
 Thank you to the FSCI organisers and technical support team for the smooth running of the sessions.
 
@@ -58,7 +58,7 @@ Additional Contributors: Shabnam Barbhuiya, Jamia Millia Islamia University (Co-
 
 Level: (Beginner, but suitable for all levels)
 
-**Requirements:** Run Google ColLab in a browser. See: [https://colab.research.google.com/](https://colab.research.google.com/) A Google account to run CoLab Jupyter Notebooks (if this is not possible users can run Notebooks in their own environments \— but please check with course organisers for support). Have a GitLab account (other Git versions can be used \— GitLab or Codeberg, etc. Contact course organisers in advance if this is required.) It is also required to obtain some free to use API keys.
+**Requirements:** Run Google ColLab in a browser. See: [https://colab.research.google.com/](https://colab.research.google.com/) A Google account to run CoLab Jupyter Notebooks (if this is not possible users can run Notebooks in their own environments — but please check with course organisers for support). Have a GitLab account (other Git versions can be used — GitLab or Codeberg, etc. Contact course organisers in advance if this is required.) It is also required to obtain some free to use API keys.
 
 ## Course Learning Objectives
 
@@ -84,7 +84,7 @@ At the end of the course, participants will be able to:
 
 Renu Kumari
 
-- Notebook — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16418987.svg)](https://doi.org/10.5281/zenodo.16418987)
+- Notebook – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16418987.svg)](https://doi.org/10.5281/zenodo.16418987)
 - [Output](https://github.com/semanticClimate/assisted-literature-review/tree/main/outputs/corpus_creation_pygetpapers)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/tree/main/presentations)
 
@@ -98,34 +98,34 @@ Peter Murray Rust
 
 Shabnam Barbhuiya
 
-- [Notebook] — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16526790.svg)](https://doi.org/10.5281/zenodo.16526790)
+- [Notebook] – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16526790.svg)](https://doi.org/10.5281/zenodo.16526790)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/blob/main/presentations/Day_2_FSCI2025_SUMMARIZATION.pdf)
 
 ## Image classification
 
 Ambreen Hamadani
 
-- [Notebook_Vision Transformers] — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16734915.svg)](https://doi.org/10.5281/zenodo.16734915)
+- [Notebook_Vision Transformers] – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16734915.svg)](https://doi.org/10.5281/zenodo.16734915)
 
 ## Image extraction
 
 Avika Joshi
 
-- [FigSense](https://figsense.streamlit.app/) — Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16752114.svg)](https://doi.org/10.5281/zenodo.16752114)
+- [FigSense](https://figsense.streamlit.app/) – Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16752114.svg)](https://doi.org/10.5281/zenodo.16752114)
 
 ## Named entity recognition (NER): Entities and concepts
 
 Moobashara Jawed
 
-- [Notebook] — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16559426.svg)](https://doi.org/10.5281/zenodo.16559426)
+- [Notebook] – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16559426.svg)](https://doi.org/10.5281/zenodo.16559426)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/blob/main/presentations/DAY_3_FSCI2025_NER.pptx)
 
 ## LLM and RAG: For PDF and HTML
 
 Shabnam Barbhuiya and Anna Rahr
 
-- [Notebook for LLM RAG from PDF/XML] — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16675979.svg)](https://doi.org/10.5281/zenodo.16675979)
-- [Repo including Notebook for LLM RAG from HTML](https://github.com/semanticClimate/KISSKI-RAG-4-IPCC) - *not shown in the course*
+- [Notebook for LLM RAG from PDF/XML] – [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16675979.svg)](https://doi.org/10.5281/zenodo.16675979)
+- [Repo including Notebook for LLM RAG from HTML](https://github.com/semanticClimate/KISSKI-RAG-4-IPCC) – *not shown in the course*
 
 ## Video recordings for three days (one hour each)
 
@@ -137,16 +137,16 @@ Shabnam Barbhuiya and Anna Rahr
 
 \#semantiClimate runs an ongoing internship coordinated by NIPGR. Students from the programme carry out literature review on chapters of the [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/report/sixth-assessment-report-cycle/). Below are video presentations from the students reporting on their respective literature reviews.
 
- - [AR6/WG2/Chapter04 — Water](https://drive.google.com/file/d/1ngYjSjrC5fXYctA3ac3n5WEzFpQYgbnl/view?usp=drivesdk)
-  - By Ms. Haarthi Vallabhaneni
- - [AR6/WG2/Chapter08 — Poverty, Livelihood, Sustainable development](https://drive.google.com/file/d/1XkuSYwHXlUPiyD-L5DhaRjzQacKBdcBU/view?usp=share_link)
-  - By Malavika Balachandran
- - [AR6/WG1/Chapter08 — Water Cycle Changes](https://drive.google.com/file/d/1TvUaKqvKa-SkkJz9kMtcBS8nqsBzyOxA/view?usp=sharing)
-  - By Ms. Anushka Kushwaha
- - [AR6/WG1/Chapter04 — Future Global Climate](https://drive.google.com/file/d/1kccHHy_tcuA_CIYZn727KgGz27xGUyE7/view?usp=sharing)
-  - By Ms. Deepika Mandakala
- - [AR6/WG2/Chapter-06 — Cities, settlements and key infrastructure](https://drive.google.com/file/d/13c69dMA3vzFGl2_vkF9Y49FbYMfeJlwX/view?usp=drive_link)
-  - By Harshita Mahawar
+ - [AR6/WG2/Chapter04 – Water](https://drive.google.com/file/d/1ngYjSjrC5fXYctA3ac3n5WEzFpQYgbnl/view?usp=drivesdk)
+   - By Ms. Haarthi Vallabhaneni
+ - [AR6/WG2/Chapter08 – Poverty, Livelihood, Sustainable development](https://drive.google.com/file/d/1XkuSYwHXlUPiyD-L5DhaRjzQacKBdcBU/view?usp=share_link)
+   - By Malavika Balachandran
+ - [AR6/WG1/Chapter08 – Water Cycle Changes](https://drive.google.com/file/d/1TvUaKqvKa-SkkJz9kMtcBS8nqsBzyOxA/view?usp=sharing)
+   - By Ms. Anushka Kushwaha
+ - [AR6/WG1/Chapter04 – Future Global Climate](https://drive.google.com/file/d/1kccHHy_tcuA_CIYZn727KgGz27xGUyE7/view?usp=sharing)
+   - By Ms. Deepika Mandakala
+ - [AR6/WG2/Chapter-06 – Cities, settlements and key infrastructure](https://drive.google.com/file/d/13c69dMA3vzFGl2_vkF9Y49FbYMfeJlwX/view?usp=drive_link)
+   - By Harshita Mahawar
 
 ### A climate justice literature review  
 
