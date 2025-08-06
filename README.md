@@ -1,24 +1,42 @@
-# Rapid Scoping Reviews: Open Source AI LLM on Open Access Research Literature Repositories
+# Assisted Literature Reviews (ALR): Using Globally Equitable AI LLMs on Open Access Research Literature Repositories
 
-From: Team \#semanticClimate - https://semanticclimate.github.io/p/en/
+— *For consucting a rapid scoping literature review*
 
-First release: July 2025
+[Repo and info](https://github.com/semanticClimate/assisted-literature-review) | [Discussion and support](https://github.com/orgs/semanticClimate/discussions/22)
 
-You are welcome to use the experimental framework on your own AI assisted literature review. Please get in contact is you have comments or questions: https://github.com/orgs/semanticClimate/discussions/22 
+Software citation information: [CITATION.cff](CITATION.cff) | Course outline: \<DOI>
 
-2025 FSCI course: https://force11.org/fsci/post/fsci-2025-courses-abstracts/#e01 - E01 \- AI-Assisted Literature Review on Open Access Repositories: Including Image and Object Detection
+Course units are:
 
-Courses are held Tuesday 2025-7-22, Wednesday 2025-7-23, and Thursday 2025-7-24. Each class will have a Zoom session at the same time on each of the three days, as specified in their course abstracts. The courses are listed in Pacific time (UTC-7)
+1. Corpus creation: Open Access repository retreival and analysis
+1. Vibe coding: Coding with an AI assistant — Corpus creation
+1. PDF summarisation
+1. Image classification
+1. Image extraction
+1. Named entity recognition (NER): Entities and concepts
+1. LLM and RAG: For PDF and HTML
+
+From: Team \#semanticClimate — https://semanticclimate.github.io/p/en/
+
+First release: 2025-07-22
+
+You are welcome to use the experimental framework on your own AI assisted literature review. Please get in contact on the [discussion board](https://github.com/orgs/semanticClimate/discussions/22 ) if you have comments or questions.
+
+The course was run as part of Force11 Scholarly Communications Institute (FSCI) in collaboration with UCLA Library, see course: https://force11.org/fsci/post/fsci-2025-courses-abstracts/#e01 — E01 \— AI-Assisted Literature Review on Open Access Repositories: Including Image and Object Detection
+
+Thank you to the FSCI organisers and technical support team for the smooth running of the sessions.
+
+Courses dates: Tuesday 2025-7-22, Wednesday 2025-7-23, and Thursday 2025-7-24. Each class will have a Zoom session at the same time on each of the three days, as specified in their course abstracts. The courses are listed in Pacific time (UTC-7)
 
 ## Instructor
 
-Course chair: Simon Worthington, semanticClimate, Publishing Knowledge Graph Researcher (TIB – Leibniz Information Centre for Science and Technology and University Library)
+Course chair: Simon Worthington, [Climate Knowledge Graph](https://github.com/TIBHannover/climate-knowledge-graph) project lead (TIB — Leibniz Information Centre for Science and Technology and University Library) and \#semanticClimate member.
 
 ## Contributors
 
 Gitanjali Yadav, National Institute of Plant Genome Research (NIPGR) (Co-course chair); Peter Murray-Rust, Cambridge University (Co-course chair); Renu Kumari, National Institute of Plant Genome Research (NIPGR) (Co-instructor).
 
-Additional Contributors: Shabnam Barbhuiya, Jamia Millia Islamia University (Co-instructor); Ambreen Hamadani, Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir (SKUAST-K) (Co-instructor); Moobashara Jawed, Jamia Millia Islamia University (Co-instructor); Anna Rahr, Hannover University of the Applied Science and Arts, and TIB (Co-instructor); Sarth Shah, National Institute of Technology Karnataka (Co-instructor); Avika Joshi, Delhi Technological University; Deepika Mandakala, Vignan's Institute of Information Technology (A), Visakhapatnam; Anudev Suresh, Jamia Millia Islamia University; Haarthi Vallabhaneni, DVR & Dr. HS MIC College of Technology; Saurav Mishra, National Institute of Technology; Anushka Kushwaha, NIIT University; Malavika Balachandran, University of Toronto; Harshita Mahawar, Amity University, Noida; Shaik Zainab, Anurag University, Hyderabad. 
+Additional Contributors: Shabnam Barbhuiya, Jamia Millia Islamia University (Co-instructor); Ambreen Hamadani, Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir (SKUAST-K) (Co-instructor); Moobashara Jawed, Jamia Millia Islamia University (Co-instructor); Anna Rahr, Hannover University of the Applied Science and Arts, and TIB (Co-instructor); Avika Joshi, Delhi Technological University; Deepika Mandakala, Vignan's Institute of Information Technology (A), Visakhapatnam; Anudev Suresh, Jamia Millia Islamia University; Haarthi Vallabhaneni, DVR & Dr. HS MIC College of Technology; Saurav Mishra, National Institute of Technology; Anushka Kushwaha, NIIT University; Malavika Balachandran, University of Toronto; Harshita Mahawar, Amity University, Noida; Shaik Zainab, Anurag University, Hyderabad.
 
 ## Abstract
 
@@ -34,22 +52,13 @@ All instruction is carried out using CoLab Jupyter Notebooks so no complicated i
 
 The learning points covered allow for familiarity with AI tooling for literature search and as a package that can be reused by students and researchers. The learning package already exists as a fully documented workflow, with existing CoLab Notebooks — all deposited in Zenodo with DOIs. The intention is to give participants experience and methodologies to evaluate and integrate AI LLM RAG into their workflows. AI is evolving so fast that focusing on one set of fixed components in a tech stack is not possible, instead the focus is on concept and evaluation.
 
-Course units are:
-
-* Designing your AI LLM RAG assisted literature review and good practice;  
-* Named entity recognition;  
-* Summarisation;  
-* Corpus creation, and text and data mining;  
-* Image classification;  
-* LLM RAG use with PDFs and with HTML.
-
 The focus for the class is a scoping literature review. The results of the AI Assisted Literature Review workflow taught in the class are a literature review report, including: a textual summary, summaries of papers as a data table, the complete full-text articles downloaded, a reproducible and replicable CoLab Notebook with all the software and code used in the review. The resulting content package can be used in papers, reporting, dashboards, CI pipelines, and for further data analysis.
 
 **Audience:** Researchers, librarians, publishers
 
 Level: (Beginner, but suitable for all levels)
 
-**Requirements:** Run Google ColLab in a browser. See: [https://colab.research.google.com/](https://colab.research.google.com/) A Google account to run CoLab Jupyter Notebooks (if this is not possible users can run Notebooks in their own environments \- but please check with course organisers for support). Have a GitLab account (other Git versions can be used \- GitLab or Codeberg, etc. Contact course organisers in advance if this is required.)
+**Requirements:** Run Google ColLab in a browser. See: [https://colab.research.google.com/](https://colab.research.google.com/) A Google account to run CoLab Jupyter Notebooks (if this is not possible users can run Notebooks in their own environments \— but please check with course organisers for support). Have a GitLab account (other Git versions can be used \— GitLab or Codeberg, etc. Contact course organisers in advance if this is required.) It is also required to obtain some free to use API keys.
 
 ## Course Learning Objectives
 
@@ -58,107 +67,101 @@ At the end of the course, participants will be able to:
 * Conduct a scoping literature review using AI LLM RAG tooling  
 * Obtain familiarity with using LLM RAG with PDFs and with HTML  
 * Be able to carry out text and data mining and build a corpus from open access sources such as EPMC  
-* Use CoLab Jupyter Notebooks, execute python commands, and use GitHub.  
-* Use the provided ‘good practice’ framework for managing LLM projects
+* Use Colab Jupyter Notebooks, execute python commands, and use GitHub.  
+* Use the provided [‘good practice’](https://github.com/semanticClimate/llmrag) framework for managing LLM projects
 
 ## FSCI Learning modules
 
-Add your module and instructions for participants.
-
-Add your instructions, slides, notebooks and any other resouces needed for participants. Either add inline or as links.
-
 1. Corpus creation: OA repository retreival and analysis
-2. Vibe coding: Coding with an AI assistant
-3. PDF summarisation
-4. Image classification
-5. Named entity recognition (NER): Entities and concepts
-6. LLM and RAG: For HTML and/or PDF
-
-NB: At end of the list is an example of #semanticClimate tooling being used on a literature review in 2024 on the topic of Climate Justice.
+1. Vibe coding: Coding with an AI assistant — Corpus creation
+1. PDF summarisation
+1. Image classification
+1. Image extraction
+1. Named entity recognition (NER): Entities and concepts
+1. LLM and RAG: For PDF and HTML
 
 ## Corpus creation: OA repository retreival and analysis
 
-- [Notebook](https://colab.research.google.com/drive/1stqd9YxRda2SmSR-r40LBAGhabJi0vkq?usp=sharing)
+Renu Kumari
+
+- Notebook — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16418987.svg)](https://doi.org/10.5281/zenodo.16418987)
 - [Output](https://github.com/semanticClimate/assisted-literature-review/tree/main/outputs/corpus_creation_pygetpapers)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/tree/main/presentations)
 
-## Vibe coding: Coding with an AI assistant
+## Vibe coding: Coding with an AI assistant - Corpus creation
 
-- Repository 
+Peter Murray Rust
+
 - [Slide notes](https://github.com/petermr/pygetpapers/blob/v20/docs/upspace-value-story.md)
   
 ## PDF summarisation
-- [Notebook](https://colab.research.google.com/drive/1el5Zjogk7DXqqeuBzGMqFDBGTvyWg1Pm?usp=sharing)
+
+Shabnam Barbhuiya
+
+- [Notebook] — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16526790.svg)](https://doi.org/10.5281/zenodo.16526790)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/blob/main/presentations/Day_2_FSCI2025_SUMMARIZATION.pdf)
+
 ## Image classification
-- [Notebook_Vision Transformers](https://colab.research.google.com/drive/1K0Dam1Pxi2YtruwcCe1XgwL_pLtBWJHP?usp=sharing)
-- [FigSense](https://figsense.streamlit.app/)
+
+Ambreen Hamadani
+
+- [Notebook_Vision Transformers] — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16734915.svg)](https://doi.org/10.5281/zenodo.16734915)
+
+## Image extraction
+
+Avika Joshi
+
+- [FigSense](https://figsense.streamlit.app/) — Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16752114.svg)](https://doi.org/10.5281/zenodo.16752114)
+
 ## Named entity recognition (NER): Entities and concepts
-- [Notebook](https://colab.research.google.com/drive/1oPgnTC4UrBJF-8W2t508voWEsu8_z4ac?usp=sharing)
+
+Moobashara Jawed
+
+- [Notebook] — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16559426.svg)](https://doi.org/10.5281/zenodo.16559426)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/blob/main/presentations/DAY_3_FSCI2025_NER.pptx)
-## LLM and RAG: For HTML and/or PDF
-- [Notebook For PDF/XML](https://colab.research.google.com/drive/17J9wEvkQvdaeOihN3N13u_ln5Oez8ssd?usp=sharing)
 
-## Recordings for Three Days
+## LLM and RAG: For PDF and HTML
 
-- #### [Day 1_Corpus Creation and Vibe Coding](https://drive.google.com/file/d/1ofb-P7TEkQwNKn9a0tR0g9lZp5L7-MbJ/view?usp=sharing)
-- #### [Day 2_PDF Summarization, Image classification, FigSense demo](https://drive.google.com/file/d/1K1rnVXoVR9J7UehWact21JzqE3YzbrJh/view?usp=sharing)
-- #### [Day 3_Named Entity Recognition and RAG LLM with PDF-XML](https://drive.google.com/file/d/1-y5VLWrB8koLT4M26gs94fPq8P8AyJ_o/view?usp=sharing)
+Shabnam Barbhuiya and Anna Rahr
 
-### Other: Climate justice example lit review
+- [Notebook for LLM RAG from PDF/XML] — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16675979.svg)](https://doi.org/10.5281/zenodo.16675979)
+- [Repo including Notebook for LLM RAG from HTML](https://github.com/semanticClimate/KISSKI-RAG-4-IPCC) - *not shown in the course*
 
-This is an example of a literature review Notebook and output data from 2024.
+## Video recordings for three days (one hour each)
+
+- [Day 1: Corpus Creation; Vibe Coding](https://drive.google.com/file/d/1ofb-P7TEkQwNKn9a0tR0g9lZp5L7-MbJ/view?usp=sharing)
+- [Day 2: PDF Summarization; Image classification; FigSense demo — Image extraction](https://drive.google.com/file/d/1K1rnVXoVR9J7UehWact21JzqE3YzbrJh/view?usp=sharing)
+- [Day 3: Named Entity Recognition; RAG LLM with PDF-XML](https://drive.google.com/file/d/1-y5VLWrB8koLT4M26gs94fPq8P8AyJ_o/view?usp=sharing)
+
+### Example literature reviews
+
+\#semantiClimate runs an ongoing internship coordinated by NIPGR. Students from the programme carry out literature review on chapters of the [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/report/sixth-assessment-report-cycle/). Below are video presentations from the students reporting on their respective literature reviews.
+
+ - [AR6/WG2/Chapter04 — Water](https://drive.google.com/file/d/1ngYjSjrC5fXYctA3ac3n5WEzFpQYgbnl/view?usp=drivesdk)
+  - By Ms. Haarthi Vallabhaneni
+ - [AR6/WG2/Chapter08 — Poverty, Livelihood, Sustainable development](https://drive.google.com/file/d/1XkuSYwHXlUPiyD-L5DhaRjzQacKBdcBU/view?usp=share_link)
+  - By Malavika Balachandran
+ - [AR6/WG1/Chapter08 — Water Cycle Changes](https://drive.google.com/file/d/1TvUaKqvKa-SkkJz9kMtcBS8nqsBzyOxA/view?usp=sharing)
+  - By Ms. Anushka Kushwaha
+ - [AR6/WG1/Chapter04 — Future Global Climate](https://drive.google.com/file/d/1kccHHy_tcuA_CIYZn727KgGz27xGUyE7/view?usp=sharing)
+  - By Ms. Deepika Mandakala
+ - [AR6/WG2/Chapter-06 — Cities, settlements and key infrastructure](https://drive.google.com/file/d/13c69dMA3vzFGl2_vkF9Y49FbYMfeJlwX/view?usp=drive_link)
+  - By Harshita Mahawar
+
+### A climate justice literature review  
 
 An example of #semanticClimate tooling being used on the question of [Climate Justice](https://github.com/semanticClimate/climate-justice-lit-review/blob/main/README.md), 2024.
 
-## Course Schedule
+### Course materials
 
-LIVE ZOOM SESSION SCHEDULE  
-(*All times Pacific UTC-7*)
+Bookmark these Git repository:
 
-This course will be presented over three days for 1 hours each day.
-
-| 7:00am – 8:00am | 60 minutes |
-| :---- | :---: |
-
-Example literature review for the topic of [Climate Justice](https://github.com/semanticClimate/JEP-article/blob/main/climate_justice_demo_sC_tools.ipynb) 2025, machine learning tooling only.
-
-## Important tutorial links
-
-  - FSCI - AI Assisted Literature Review (ALR) [learning modules](/fsci-learning-modules.md) documentation.
-
-    - [All notebooks](/notebooks)
-
-    - [All sample outputs](/outputs)
-
-### Day 1-3
-
-#### Presentation details Day 1
-
-* Corpus creation: OA repository retreival and analysis - Renu Kumari, with support from Shabnam Barbhuiya and Moobashara Jawed
-* Vibe coding: Coding with an AI assistant - Peter Murray Rust, with support from Anudev Suresh, Sarth Shah, and Moobashara Jawed
-
-#### Presentation details Day 2
-
-* PDF summarisation - Shabnam Barbhuiya and Haarthi Vallabhaneni
-* Image classification - Ambreen Hamadani
-* AI Figure extraction: FigSense - Avika Joshi
-
-#### Presentation details Day 3
-
-* Named entity recognition (NER): Entities and concepts - Moobashara Jawed, with support from Renu Kumari
-* LLM RAG for PDF - Shabnam Barbhuiya 
-
-### Course Materials and Supplies Required  
-
-Bookmark these Git repository: 
-
-  - [https://github.com/semanticClimate/ai-automated-literature-review](https://github.com/semanticClimate/assisted-literature-review) and
+  - [https://github.com/semanticClimate/assited-literature-review](https://github.com/semanticClimate/assisted-literature-review) and
   - [https://github.com/semanticClimate/llmrag](https://github.com/semanticClimate/llmrag) 
 
-### Other Helpful Information
+### Other helpful information
 
-\#semanticClimate tools and resources: [https://semanticclimate.github.io/p/en/posts/resources/](https://semanticclimate.github.io/p/en/posts/resources/) 
+\#semanticClimate tools and resources: [https://semanticclimate.github.io/p/en/posts/resources/](https://semanticclimate.github.io/p/en/posts/resources/)
 
 ---
 
@@ -205,7 +208,7 @@ Open
 * AI regulation compliant  
 * Digital sovereignty by design
 
-Open access
+#### Open access
 
 * Use open access research literature repositories:  
   * Redalyc  
@@ -213,9 +216,10 @@ Open access
   * Europe PubMed Central (Europe PMC)  
   * bioRxiv  
   * Ukrainian OA repository  
+  * University of Pretoria
   * etc.
 
-Global
+#### Global
 
 * AI and LLM without geo blocking  
 * Multilingual supporting AI LLM  
@@ -225,7 +229,13 @@ Global
 
 * Support trust in users  
 * Avoid vendor lockin  
-* Aim to have higher quality best of class literature and data retrieval results  
+* Aim to have higher quality, best of class, literature and data retrieval results  
 * Enable transparency and reproducibility as much as possible  
 * Institutional knowledge retention  
 * Support the knowledge commons and biblio-diversity
+
+
+## LICENSE
+
+Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ | License information: [LICENSE](LICENSE)
+
