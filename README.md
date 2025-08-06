@@ -2,7 +2,7 @@
 
 ## Using Globally Equitable AI LLMs on Open Access Research Literature Repositories
 
-— *For conducting a rapid scoping literature review*
+— *For conducting rapid scoping literature reviews*
 
 From: Team \#semanticClimate — https://semanticclimate.github.io/p/en/
 
