@@ -14,7 +14,7 @@ Course outline: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16754743.svg
 
 Course units are:
 
-1. Corpus creation: Open Access repository retreival and analysis
+1. Corpus creation: Open Access repository retrieval and analysis
 1. Vibe coding: Coding with an AI assistant — Corpus creation
 1. PDF summarisation
 1. Image classification
