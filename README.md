@@ -114,7 +114,8 @@ Ambreen Hamadani
 
 Avika Joshi
 
-- [FigSense](https://figsense.streamlit.app/) – Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16752114.svg)](https://doi.org/10.5281/zenodo.16752114)
+- [FigSense](https://figsense.streamlit.app/) 
+– Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16752114.svg)](https://doi.org/10.5281/zenodo.16752114)
 
 ## Named entity recognition (NER): Entities and concepts
 
