@@ -1,6 +1,6 @@
 # AI Assisted Literature Reviews Course
 
-## Using Globally Equitable AI LLMs on Open Access Research Literature Repositories
+## Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories
 
 — *For conducting rapid scoping literature reviews*
 
