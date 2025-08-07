@@ -93,6 +93,9 @@ Renu Kumari
 Peter Murray Rust
 
 - [Slide notes](https://github.com/petermr/pygetpapers/blob/v20/docs/upspace-value-story.md)
+- [Slides](https://docs.google.com/presentation/d/1TdUb3mZ-75s1XzZ6ekRoDXYDbTqpjqleg70kVhsCTX0/edit?usp=sharing)
+- [Documentation](https://github.com/petermr/pygetpapers/blob/v20/docs/upspace-value-story.md)
+- [Code](https://github.com/petermr/pygetpapers/tree/v20/pygetpapers/repositories/upspace)
   
 ## PDF summarisation
 
