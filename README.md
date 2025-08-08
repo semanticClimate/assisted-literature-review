@@ -24,6 +24,12 @@ Course units are:
 
 You are welcome to use the experimental framework on your own AI assisted literature review. Please get in contact on the [discussion board](https://github.com/orgs/semanticClimate/discussions/22) if you have comments or questions.
 
+Additions: A template GitHub repository for running your own AI LLM RAG for a literature review project is provided. It contains software and instructions. The template has been setup for the IPCC AR6 Corpus from the Climate Knowledge Graph but it can be configured to hold any corpus or literature review mini-corpus.
+
+Cite as: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16779401.svg)](https://doi.org/10.5281/zenodo.16779401)
+
+URL: https://github.com/semanticClimate/llmrag 
+
 The course was run as part of Force11 Scholarly Communications Institute (FSCI) in collaboration with UCLA Library, see course: https://force11.org/fsci/post/fsci-2025-courses-abstracts/#e01 — E01  AI-Assisted Literature Review on Open Access Repositories: Including Image and Object Detection
 
 Thank you to the FSCI organisers and technical support team for the smooth running of the sessions.
