@@ -162,6 +162,12 @@ Shabnam Barbhuiya and Anna Rahr
 
 An example of #semanticClimate tooling being used on the question of [Climate Justice](https://github.com/semanticClimate/climate-justice-lit-review/blob/main/README.md), 2024.
 
+As well as supporting step-by-step guide.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16813353.svg)](https://doi.org/10.5281/zenodo.16813353)
+
+Worthington, Simon, Renu Kumari, Peter Murray-Rust, Gitanjali Yadav, Shweata N Hegde, and Bhadra Parijat. “Creating the Climate Justice Dictionary — A Step-by-step Guide”. semanticClimate, August 12, 2025. https://doi.org/10.5281/zenodo.16813353.
+
 ### Course materials
 
 Bookmark these Git repository:
