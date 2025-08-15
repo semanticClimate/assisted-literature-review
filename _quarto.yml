@@ -1,17 +1,53 @@
 project:
   type: book
   output-dir: docs
+
+doi: "10.5281/zenodo.16754743"
+
 book:
-  title: "assisted-literature-review"
-  author: "Norah Jones"
-  date: "8/15/2025"
+  title: "AI Assisted Literature Reviews Course"
+  author:
+  -  name: Simon Worthington
+     orcid: 0000-0002-8579-9717
+     email: simon.worthington@tib.eu
+  -  name: Renu Kumari
+     orcid: 0000-0002-9451-7814  
+  -  name: Peter Murray-Rust
+     orcid: 0000-0003-3386-3972  
+  -  name: Gitanjali Yadav
+     orcid: 0000-0001-6591-9964 
+  -  name: Shabnam Barbhuiya
+     orcid: 0009-0004-0729-7385  
+  -  name: Ambreen Hamadani
+     orcid: 0000-0002-5455-0468  
+  -  name: Moobashara Jawed
+     orcid: 0009-0009-7488-4834  
+  -  name: Anna Rahr
+     orcid: 0009-0008-4458-8228  
+  -  name: Avika Joshi
+     orcid: 0009-0009-3315-6099
+  -  name: Deepika Mandakala
+     orcid:   
+  -  name: Anudev Suresh
+     orcid: 0009-0006-5487-4741  
+  -  name: Haarthi Vallabhaneni
+     orcid:  
+  -  name: Saurav Mishra
+     orcid:   
+  -  name: Anushka Kushwaha
+     orcid:  
+  -  name: Malavika Balachandran
+     orcid:  
+  -  name: Harshita Mahawar
+     orcid:  
+  -  name: Shaik Zainab
+     orcid:                                                     
+  date: 2025-07-22
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
-
-bibliography: references.bib
+  repo-url: https://github.com/semanticClimate/assisted-literature-review
+  repo-actions: [issue]
+  downloads: [pdf]
 
 format:
   html:
