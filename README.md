@@ -10,7 +10,7 @@ First release: 2025-07-22
 
 [Repo and info](https://github.com/semanticClimate/assisted-literature-review) | [Discussion and support](https://github.com/orgs/semanticClimate/discussions/22)
 
-Course outline: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16754743.svg)](https://doi.org/10.5281/zenodo.16754743) | Software citation information: [CITATION.cff](CITATION.cff)
+Course outline: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16754743.svg)](https://doi.org/10.5281/zenodo.16754743) | Software citation information: [CITATION.cff](https://github.com/semanticClimate/assisted-literature-review/blob/main/CITATION.cff)
 
 Course units are:
 
@@ -40,7 +40,7 @@ Courses dates: Tuesday 2025-7-22, Wednesday 2025-7-23, and Thursday 2025-7-24. E
 
 The course covers how to use a self-hosted open-source AI LLM RAG (Retrieval-Augmented Generation) assisted literature review system with supporting user learning material. The system is for: using open access literature repositories; is based on open science (open scholarship) principles; is globally equitable, inclusive, and multilingual, and; is independent of commercial providers.
 
-Participants will be able to self-host their own open-source AI LLM RAG system with no dependency on commercial providers, and to be able to adapt the system to different retrieval and knowledge query use cases. See: [semanticClimate llmrag repo](https://github.com/semanticClimate/llmrag) | [About #sC llmrage](/open-source-ai-llm.md).
+Participants will be able to self-host their own open-source AI LLM RAG system with no dependency on commercial providers, and to be able to adapt the system to different retrieval and knowledge query use cases. See: [semanticClimate llmrag repo](https://github.com/semanticClimate/llmrag).
 
 The Assisted Literature Review (ALR) course covers instruction for a semi-automated literature search with a focus on AI LLM RAG use on a dedicated corpus. In the course the example corpus will be the IPCC’s *Sixth Assessment Report*. The framework can be used on any topic or corpus, for example from the Open Access literature from Europe PMC, which is a corpus of 7 million open access articles.
 
@@ -252,6 +252,6 @@ Open
 
 ## LICENSE
 
-Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ | License information: [LICENSE](LICENSE)
+Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ | License information: [LICENSE](https://github.com/semanticClimate/assisted-literature-review/blob/main/LICENSE)
 
 

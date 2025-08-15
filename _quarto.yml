@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: docs
+book:
+  title: "assisted-literature-review"
+  author: "Norah Jones"
+  date: "8/15/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

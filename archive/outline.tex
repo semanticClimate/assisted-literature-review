@@ -1,0 +1,704 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+
+\begin{document}
+
+
+\chapter{Documentation Outline}\label{documentation-outline}
+
+Moved to Hedgedoc 28 May 2024 (\textbf{mrchristian?}) :
+https://demo.hedgedoc.org/QyniBhytQGGeIx3XdM8F2g
+
+The idea is to create descriptions of what we would like the ALR to do.
+
+The writing style will be based on the following:
+
+The guide will be considered a Step-by-step guide acording to the
+Diátaxis method as the audience will be users familiar with data science
+tooling and paper writing (as Diátaxis describes it - a work place
+instruction).
+
+\begin{itemize}
+\tightlist
+\item
+  Technical writing method: Diátaxis - https://diataxis.fr/
+\item
+  Technical writing style: MDN Web Docs -
+  https://developer.mozilla.org/en-US/docs/MDN/Writing\_guidelines/Writing\_style\_guide
+\item
+  Style guide: APA - https://apastyle.apa.org/
+\end{itemize}
+
+The writing tooling has not yet been selected.
+
+Contributors:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/neerajkumaris}{(\textbf{neerajkumaris?})}
+\item
+  \href{https://github.com/ydv-amit-ydv}{(\textbf{Amit?})}
+\item
+  \href{https://github.com/Adesh212}{(\textbf{Adesh212?})}
+\item
+  \href{https://github.com/mrchristian}{(\textbf{Simon?}) Worthington}
+\end{itemize}
+
+\section{SECTIONS}\label{sections}
+
+\section{Orientation and learning
+points}\label{orientation-and-learning-points}
+
+Assigned (\textbf{NOT?}) ASSIGNED -
+
+\textbf{Questions:}
+
+\textbf{Notes:}
+
+\textbf{Outline:}
+
+\section{A literature review
+question?}\label{a-literature-review-question}
+
+Assigned
+\href{https://github.com/neerajkumaris}{(\textbf{neerajkumaris?})} -
+
+\textbf{Questions:}
+
+How does the author report on their question in the literature review in
+terms of the use of ALR?
+
+\textbf{Notes:}
+
+When the author reports on their question in the literature review using
+Automated Literature Review (ALR) tools such as pygetpapers, they
+typically follow a systematic process that leverages the capabilities of
+the tool to enhance the efficiency and comprehensiveness of their
+review.
+
+\textbf{Outline:} Outline for Reporting on the Research Question in the
+Literature Review Using pygetpapers :
+
+\textbf{Introduction:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Introduce the research question and its significance.
+\item
+  Provide background information on the topic.
+\item
+  Explain the relevance of Automated Literature Review (ALR) tools like
+  pygetpapers.
+\item
+  State the purpose of the literature review and its organization.
+\end{enumerate}
+
+\textbf{Methodology for Literature Search:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Describe the methodology used to conduct the literature search.
+\item
+  Explain the use of pygetpapers for automating the retrieval of
+  academic papers.
+\item
+  Specify the search strategy, including keywords, phrases, and Boolean
+  operators.
+\item
+  Detail the sources from which papers were retrieved (e.g., Europe
+  PMC).
+\end{enumerate}
+
+\textbf{Selection Criteria and Filtering:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Define the inclusion and exclusion criteria used to filter the search
+  results.
+\item
+  Discuss the process of filtering papers based on relevance and
+  quality.
+\item
+  Highlight any manual or programmatic filtering techniques employed.
+\end{enumerate}
+
+\textbf{Organization and Categorization:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Explain how the retrieved literature was organized and categorized.
+\item
+  Discuss the criteria used for categorization, such as themes,
+  methodologies, or findings.
+\item
+  Provide insights into the structure of the literature review based on
+  these categories.
+\end{enumerate}
+
+\textbf{Synthesis of Findings:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Summarize the main findings from the retrieved literature.
+\item
+  Discuss common themes, trends, and patterns identified in the
+  literature.
+\item
+  Highlight any contradictions or inconsistencies among the findings.
+\end{enumerate}
+
+\textbf{Critical Analysis and Quality Assessment:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Conduct a critical analysis of the methodologies employed in the
+  retrieved studies.
+\item
+  Assess the reliability, validity, and generalizability of the
+  findings.
+\item
+  Utilize metrics such as citation counts or impact factors to evaluate
+  the quality of the literature.
+\end{enumerate}
+
+\textbf{Conclusion:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Summarize the key findings and insights from the literature review.
+\item
+  Reiterate the significance of the research question and its
+  implications for the field.
+\item
+  Reflect on the role of ALR tools like pygetpapers in facilitating the
+  literature review process.
+\end{enumerate}
+
+\section{Using CoLab}\label{using-colab}
+
+Assigned
+\href{https://github.com/neerajkumaris}{(\textbf{neerajkumaris?})} -
+
+\textbf{Questions:}
+
+\begin{itemize}
+\tightlist
+\item
+  How and when to add CoLab to GitHub?
+  \href{https://github.com/mrchristian}{(\textbf{Simon?}) Worthington}
+\end{itemize}
+
+\textbf{Notes:}
+
+\textbf{Outline:}
+
+\textbf{When to Add CoLab to GitHub}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  To keep track of changes and revisions to your notebooks.
+\item
+  To easily share notebooks with collaborators and work together on the
+  same project.
+\item
+  To keep a backup of your work in case of accidental deletions or
+  changes.
+\item
+  To integrate your notebooks into a larger project managed on GitHub,
+  benefiting from issues tracking, pull requests, and other GitHub
+  features.
+\end{enumerate}
+
+\textbf{Steps to integrate Google Colab to GitHub}
+
+\textbf{1. Linking GitHub to Colab}
+
+\textbf{First, you need to link your GitHub account with your Google
+Colab account:}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Open a Google Colab notebook.
+\item
+  Click on ``File'' in the menu.
+\item
+  Select ``Save a copy in GitHub''.
+\item
+  If you haven't linked your GitHub account before, a prompt will appear
+  asking you to authenticate with GitHub. Follow the instructions to
+  grant access.
+\end{enumerate}
+
+\textbf{2. Saving a Colab Notebook to GitHub}
+
+\textbf{Once your GitHub account is linked, you can save notebooks
+directly to a GitHub repository:}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Open the notebook you want to save.
+\item
+  Click on ``File'' in the menu.
+\item
+  Select ``Save a copy in GitHub''.
+\item
+  A dialog will appear where you can specify the repository, the branch,
+  and the commit message.
+\item
+  Click ``OK'' to save the notebook to the specified GitHub repository.
+\end{enumerate}
+
+\textbf{3. Opening a Notebook from GitHub in Colab}
+
+\textbf{To open a notebook directly from a GitHub repository:}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Go to the Google Colab homepage.
+\item
+  Click on ``GitHub'' in the menu.
+\item
+  Authenticate with your GitHub account if prompted.
+\item
+  Search for the repository or notebook you want to open.
+\item
+  Click on the notebook to open it in Colab.
+\end{enumerate}
+
+\textbf{4. Using Git Commands in Colab}
+
+\textbf{For more advanced use cases, you can use Git commands directly
+within a Colab notebook:}
+
+\textbf{Start by cloning a repository:}
+
+!git clone https://github.com/yourusername/yourrepository.git
+
+\textbf{Navigate into the repository directory:}
+
+\%cd yourrepository
+
+You can now use other Git commands, such as git pull, git add, git
+commit, and git push, just like you would in a local development
+environment.
+
+\section{Install}\label{install}
+
+Assigned
+\href{https://github.com/neerajkumaris}{(\textbf{neerajkumaris?})} -
+
+\textbf{Questions:}
+
+\textbf{Notes:}
+
+\textbf{Outline:}
+
+\section{Searching open corpora}\label{searching-open-corpora}
+
+Assigned \href{https://github.com/ydv-amit-ydv}{(\textbf{Amit?})}
+
+\subsection{\texorpdfstring{\textbf{Identification of the Topics and
+queries}
+}{Identification of the Topics and queries  }}\label{identification-of-the-topics-and-queries}
+
+Start by removing the stop words and select the most relevant keywords
+For example : Ques : What is the role of silicon transporter in the rice
+? \textgreater Step 1 : Remove Stop words : Remaing words are : Role ,
+Silicon , transorter, rice
+
+\subsection{\texorpdfstring{\textbf{Searching the corpora (EUPMC)}
+}{Searching the corpora (EUPMC)  }}\label{searching-the-corpora-eupmc}
+
+Open the command terminal in ther directory where you wish to store your
+project \textgreater Step 2 : \emph{pygetpapers -q ``your query terms''
+-n ``lantana\_query\_config''--save\_query}
+
+Using this you will be able to count the total number of available
+papers on EUPMC for the query We can also use the attributes like
+-startdate and enddate to filter out the query
+
+\begin{quote}
+Step 3 : \emph{pygetpapers -q '' role silicon transporter rice '' -k 10
+-p -x -makecsv -makehtml -o path/to/some/output/directory/optional
+--loglevel debug -x --logfile test\_log.txt}
+\end{quote}
+
+This will download the 10 papers from the EUPMC in both the xml and pdf
+formats , make the csv and html of the associated metadata and download
+these papers in the given output directory Similarly we can download
+more papers and make the entire cProject tree
+\textgreater{}\emph{--loglevel debug -x --logfile test\_log.txt} is to
+write the log to a .txt file in your HOME directory, while
+simultaneously printing it out.
+
+\begin{quote}
+\emph{When -o output path is not given the downloaded copora is saved to
+the pwd as a time-stamed directory}
+\end{quote}
+
+\subsection{\texorpdfstring{\textbf{Short Summary of the essential tags
+of the
+pegetpapers}}{Short Summary of the essential tags of the pegetpapers}}\label{short-summary-of-the-essential-tags-of-the-pegetpapers}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Flag
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+What it does
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+In this case \texttt{pygetpapers}\ldots{}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\texttt{-q} & specifies the query & queries for `invasive plant species'
+in METHODS section \\
+\texttt{-k} & number of hits (default 100) & limits hits to 10 \\
+\texttt{-o} & specifies output directory & outputs to
+invasive\_plant\_species\_test \\
+\texttt{-x} & downloads fulltext xml & \\
+\texttt{-c} & saves per-paper metadata into a single csv & saves single
+CSV named
+\href{resources/invasive_plant_species_test/europe_pmc.csv}{\texttt{europe\_pmc.csv}} \\
+\texttt{-\/-makehtml} & saves per-paper metadata into a single HTML file
+& saves single HTML named
+\href{resources/invasive_plant_species_test/eupmc_results.html}{\texttt{europe\_pmc.html}} \\
+\texttt{-\/-save\_query} & saves the given query in a
+\texttt{config.ini} in output directory & saves query to
+\href{resources/invasive_plant_species_test/saved_config.ini}{\texttt{saved\_config.ini}} \\
+\end{longtable}
+
+\texttt{pygetpapers}, by default, writes metadata to a JSON file within:
+- individual paper directory for corresponding paper
+(\texttt{epmc\_result.json}) - working directory for all downloaded
+papers
+(\href{resources/invasiv_plant_species_test/eupmc_results.json}{\texttt{epmc\_results.json}})
+
+\subsection{\texorpdfstring{\textbf{Notes :}}{Notes :}}\label{notes}
+
+-The query terms can be also specified in the purticular section like
+Abstract, methods, results etc
+\textgreater{}C:\Users\lilia\textgreater pygetpapers -q
+abstract:``money'' -n INFO: Total number of hits for the query are 22161
+
+\section{Analysing your collection}\label{analysing-your-collection}
+
+Assigned \href{https://github.com/Adesh212}{(\textbf{Adesh212?})} -
+
+\textbf{Questions:}
+
+\textbf{Notes:}
+
+\textbf{Outline:}
+
+\section{Using the literature collection in your review
+paper}\label{using-the-literature-collection-in-your-review-paper}
+
+Assigned \href{https://github.com/mrchristian}{(\textbf{Simon?})
+Worthington} -
+
+\textbf{Notes:}
+
+The author needs to use the collection, and information and data about
+the collection in their literature review paper.
+
+\textbf{Questions:}
+
+What does the collection (or what would we like it to collect) and the
+process produce that the author can use in their paper?
+
+\begin{itemize}
+\tightlist
+\item
+  A complete Git repository
+\item
+  A replicable and reusable system
+\item
+  A DOI references data and code set on Zenodo or other academic
+  repository as a full GitHub repository using Software Citation
+\item
+  A saved query:
+  https://pygetpapers.readthedocs.io/en/latest/user\_documentation.html\#example-query
+  Flag --save\_query as saved\_config.ini
+\item
+  A CProject for the whole query
+\item
+  A CTree per paper
+\item
+  Custom terms and dictionaries
+\item
+  Data analysis results?
+\item
+  Hits
+\item
+  Word frequency
+\item
+  Bibtex output and import with content an/or contnet links to Zotero
+\item
+  CSS Paged media outputs
+\end{itemize}
+
+\textbf{Outline:}
+
+\textbf{Ideal process}
+
+\begin{itemize}
+\tightlist
+\item
+  Add reference list to the paper and store it in Zotero
+\item
+  Take a GitHub Release of repository add to Zenodo and link as data to
+  paper
+\item
+  Link to all papers in repo CTree
+\item
+  Present question and methods for converting into query, show table of
+  queries, link to data
+\item
+  Provide information on how to reproduce and reuse / extend the
+  CProject
+\item
+  Present data analysis of literature review in paper
+\item
+  Chart and data link to number of hits
+\item
+  Chart of NGram of search term
+\item
+  Table of word frequency
+\item
+  Table of top ten papers
+\item
+  Table of top journals, top authors
+\end{itemize}
+
+\textbf{Current process}
+
+\begin{itemize}
+\tightlist
+\item
+  Take a GitHub Release of repository add to Zenodo and link as data to
+  paper
+\item
+  Link to all papers in repo CTree
+\item
+  Present question and methods for converting into query, show table of
+  queries, link to data
+\item
+  Provide information on how to reproduce and reuse / extend the
+  CProject
+\item
+  Present data analysis of literature review in paper
+\item
+  Table of the number of hits
+\item
+  Table of word frequency
+\item
+  Table of top ten papers
+\item
+  Table of top journals, top authors
+\end{itemize}
+
+\section{Other sections}\label{other-sections}
+
+\subsection{Metadata}\label{metadata}
+
+\subsection{Other publication sections
+needed}\label{other-publication-sections-needed}
+
+Covers, title pages, table of contents, contributors, etc. See style
+guide: APA - https://apastyle.apa.org/
+
+\subsection{Colophon}\label{colophon}
+
+\subsection{Introduction}\label{introduction}
+
+\subsection{Resources}\label{resources}
+
+\subsection{Glossary and
+abbreviations}\label{glossary-and-abbreviations}
+
+\subsection{References}\label{references}
+
+Zotero collection:
+
+
+
+
+\end{document}
