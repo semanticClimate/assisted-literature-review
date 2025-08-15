@@ -2,41 +2,161 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "assisted-literature-review",
+    "title": "AI Assisted Literature Reviews Course",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories\n— For conducting rapid scoping literature reviews\nFrom: Team #semanticClimate – https://semanticclimate.github.io/p/en/\nFirst release: 2025-07-22\nRepo and info | Discussion and support\nCourse outline: 10.5281/zenodo.16754743 | Software citation information: CITATION.cff\nCourse units are:\nYou are welcome to use the experimental framework on your own AI assisted literature review. Please get in contact on the discussion board if you have comments or questions.\nAdditions: A template GitHub repository for running your own AI LLM RAG for a literature review project is provided. It contains software and instructions. The template has been setup for the IPCC AR6 Corpus from the Climate Knowledge Graph but it can be configured to hold any corpus or literature review mini-corpus.\nCite as: 10.5281/zenodo.16779401\nURL: https://github.com/semanticClimate/llmrag\nThe course was run as part of Force11 Scholarly Communications Institute (FSCI) in collaboration with UCLA Library, see course: https://force11.org/fsci/post/fsci-2025-courses-abstracts/#e01 — E01 AI-Assisted Literature Review on Open Access Repositories: Including Image and Object Detection\nThank you to the FSCI organisers and technical support team for the smooth running of the sessions.\nCourses dates: Tuesday 2025-7-22, Wednesday 2025-7-23, and Thursday 2025-7-24. Each class will have a Zoom session at the same time on each of the three days, as specified in their course abstracts. The courses are listed in Pacific time (UTC-7)",
     "crumbs": [
-      "Preface"
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "index.html#using-globally-equitable-open-source-ai-llms-on-open-access-research-literature-repositories",
+    "href": "index.html#using-globally-equitable-open-source-ai-llms-on-open-access-research-literature-repositories",
+    "title": "AI Assisted Literature Reviews Course",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Corpus creation: Open Access repository retrieval and analysis\nVibe coding: Coding with an AI assistant — Corpus creation\nPDF summarisation\nImage classification\nImage extraction\nNamed entity recognition (NER): Entities and concepts\nLLM and RAG: For PDF and HTML",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "objectID": "index.html#abstract",
+    "href": "index.html#abstract",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Abstract",
+    "text": "Abstract\nThe course covers how to use a self-hosted open-source AI LLM RAG (Retrieval-Augmented Generation) assisted literature review system with supporting user learning material. The system is for: using open access literature repositories; is based on open science (open scholarship) principles; is globally equitable, inclusive, and multilingual, and; is independent of commercial providers.\nParticipants will be able to self-host their own open-source AI LLM RAG system with no dependency on commercial providers, and to be able to adapt the system to different retrieval and knowledge query use cases. See: semanticClimate llmrag repo.\nThe Assisted Literature Review (ALR) course covers instruction for a semi-automated literature search with a focus on AI LLM RAG use on a dedicated corpus. In the course the example corpus will be the IPCC’s Sixth Assessment Report. The framework can be used on any topic or corpus, for example from the Open Access literature from Europe PMC, which is a corpus of 7 million open access articles.\nThe AI and machine learning open-source software used is the #semanticClimate text and data mining tooling. The course is an introduction to AI Algorithms for data mining including LLM RAG frameworks. A template ‘good practice’ framework will be provided for participants later use.This course introduces literature search, text mining, image classification as well as object detection. The algorithms and the data used are all open-source and issues of trustability for open science are a priority.\nAll instruction is carried out using CoLab Jupyter Notebooks so no complicated installations are required.\nThe learning points covered allow for familiarity with AI tooling for literature search and as a package that can be reused by students and researchers. The learning package already exists as a fully documented workflow, with existing CoLab Notebooks — all deposited in Zenodo with DOIs. The intention is to give participants experience and methodologies to evaluate and integrate AI LLM RAG into their workflows. AI is evolving so fast that focusing on one set of fixed components in a tech stack is not possible, instead the focus is on concept and evaluation.\nThe focus for the class is a scoping literature review. The results of the AI Assisted Literature Review workflow taught in the class are a literature review report, including: a textual summary, summaries of papers as a data table, the complete full-text articles downloaded, a reproducible and replicable CoLab Notebook with all the software and code used in the review. The resulting content package can be used in papers, reporting, dashboards, CI pipelines, and for further data analysis.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "objectID": "index.html#contributors",
+    "href": "index.html#contributors",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Contributors",
+    "text": "Contributors\nCourse chair: Simon Worthington, Climate Knowledge Graph project lead (TIB — Leibniz Information Centre for Science and Technology and University Library) and #semanticClimate member.\nGitanjali Yadav, National Institute of Plant Genome Research (NIPGR) (Co-course chair); Peter Murray-Rust, Cambridge University (Co-course chair); Renu Kumari, National Institute of Plant Genome Research (NIPGR) (Co-instructor).\nAdditional Contributors: Shabnam Barbhuiya, Jamia Millia Islamia University (Co-instructor); Ambreen Hamadani, Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir (SKUAST-K) (Co-instructor); Moobashara Jawed, Jamia Millia Islamia University (Co-instructor); Anna Rahr, Hannover University of the Applied Science and Arts, and TIB (Co-instructor); Avika Joshi, Delhi Technological University; Deepika Mandakala, Vignan’s Institute of Information Technology (A), Visakhapatnam; Anudev Suresh, Jamia Millia Islamia University; Haarthi Vallabhaneni, DVR & Dr. HS MIC College of Technology; Saurav Mishra, National Institute of Technology; Anushka Kushwaha, NIIT University; Malavika Balachandran, University of Toronto; Harshita Mahawar, Amity University, Noida; Shaik Zainab, Anurag University, Hyderabad.\nAudience: Researchers, librarians, publishers\nLevel: (Beginner, but suitable for all levels)\nRequirements: Run Google ColLab in a browser. See: https://colab.research.google.com/ A Google account to run CoLab Jupyter Notebooks (if this is not possible users can run Notebooks in their own environments — but please check with course organisers for support). Have a GitLab account (other Git versions can be used — GitLab or Codeberg, etc. Contact course organisers in advance if this is required.) It is also required to obtain some free to use API keys.",
     "crumbs": [
-      "References"
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#course-learning-objectives",
+    "href": "index.html#course-learning-objectives",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Course Learning Objectives",
+    "text": "Course Learning Objectives\nAt the end of the course, participants will be able to:\n\nConduct a scoping literature review using AI LLM RAG tooling\n\nObtain familiarity with using LLM RAG with PDFs and with HTML\n\nBe able to carry out text and data mining and build a corpus from open access sources such as EPMC\n\nUse Colab Jupyter Notebooks, execute python commands, and use GitHub.\n\nUse the provided ‘good practice’ framework for managing LLM projects",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#fsci-learning-modules",
+    "href": "index.html#fsci-learning-modules",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "FSCI Learning modules",
+    "text": "FSCI Learning modules\n\nCorpus creation: OA repository retreival and analysis\nVibe coding: Coding with an AI assistant — Corpus creation\nPDF summarisation\nImage classification\nImage extraction\nNamed entity recognition (NER): Entities and concepts\nLLM and RAG: For PDF and HTML",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#corpus-creation-oa-repository-retreival-and-analysis",
+    "href": "index.html#corpus-creation-oa-repository-retreival-and-analysis",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Corpus creation: OA repository retreival and analysis",
+    "text": "Corpus creation: OA repository retreival and analysis\nRenu Kumari\n\nNotebook – 10.5281/zenodo.16418987\nOutput\nPresentation",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#vibe-coding-coding-with-an-ai-assistant---corpus-creation",
+    "href": "index.html#vibe-coding-coding-with-an-ai-assistant---corpus-creation",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Vibe coding: Coding with an AI assistant - Corpus creation",
+    "text": "Vibe coding: Coding with an AI assistant - Corpus creation\nPeter Murray Rust\n\nSlide notes\nSlides\nDocumentation\nCode",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#pdf-summarisation",
+    "href": "index.html#pdf-summarisation",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "PDF summarisation",
+    "text": "PDF summarisation\nShabnam Barbhuiya\n\nNotebook – 10.5281/zenodo.16526790\nPresentation",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#image-classification",
+    "href": "index.html#image-classification",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Image classification",
+    "text": "Image classification\nAmbreen Hamadani\n\nNotebook_Vision Transformers – 10.5281/zenodo.16734915",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#image-extraction",
+    "href": "index.html#image-extraction",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Image extraction",
+    "text": "Image extraction\nAvika Joshi\n\nFigSense – Code: 10.5281/zenodo.16752114",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#named-entity-recognition-ner-entities-and-concepts",
+    "href": "index.html#named-entity-recognition-ner-entities-and-concepts",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Named entity recognition (NER): Entities and concepts",
+    "text": "Named entity recognition (NER): Entities and concepts\nMoobashara Jawed\n\nNotebook – 10.5281/zenodo.16559426\nPresentation",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#llm-and-rag-for-pdf-and-html",
+    "href": "index.html#llm-and-rag-for-pdf-and-html",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "LLM and RAG: For PDF and HTML",
+    "text": "LLM and RAG: For PDF and HTML\nShabnam Barbhuiya and Anna Rahr\n\nNotebook for LLM RAG from PDF/XML – 10.5281/zenodo.16675979\nRepo including Notebook for LLM RAG from HTML – not shown in the course",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#video-recordings-for-three-days-one-hour-each",
+    "href": "index.html#video-recordings-for-three-days-one-hour-each",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "Video recordings for three days (one hour each)",
+    "text": "Video recordings for three days (one hour each)\n\nDay 1: Corpus Creation; Vibe Coding\nDay 2: PDF Summarization; Image classification; FigSense demo — Image extraction\nDay 3: Named Entity Recognition; RAG LLM with PDF-XML\n\n\nExample literature reviews\n#semantiClimate runs an ongoing internship coordinated by NIPGR. Students from the programme carry out literature review on chapters of the IPCC Sixth Assessment Report (AR6). Below are video presentations from the students reporting on their respective literature reviews.\n\nAR6/WG2/Chapter04 – Water\n\nBy Ms. Haarthi Vallabhaneni\n\nAR6/WG2/Chapter08 – Poverty, Livelihood, Sustainable development\n\nBy Malavika Balachandran\n\nAR6/WG1/Chapter08 – Water Cycle Changes\n\nBy Ms. Anushka Kushwaha\n\nAR6/WG1/Chapter04 – Future Global Climate\n\nBy Ms. Deepika Mandakala\n\nAR6/WG2/Chapter-06 – Cities, settlements and key infrastructure\n\nBy Harshita Mahawar\n\n\n\n\nA climate justice literature review\nAn example of #semanticClimate tooling being used on the question of Climate Justice, 2024.\nAs well as supporting step-by-step guide.\n10.5281/zenodo.16813353\nWorthington, Simon, Renu Kumari, Peter Murray-Rust, Gitanjali Yadav, Shweata N Hegde, and Bhadra Parijat. “Creating the Climate Justice Dictionary — A Step-by-step Guide”. semanticClimate, August 12, 2025. https://doi.org/10.5281/zenodo.16813353.\n\n\nCourse materials\nBookmark these Git repository:\n\nhttps://github.com/semanticClimate/assited-literature-review and\nhttps://github.com/semanticClimate/llmrag\n\n\n\nOther helpful information\n#semanticClimate tools and resources: https://semanticclimate.github.io/p/en/posts/resources/",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#a-software-and-learning-framework-for-a-self-hosted-open-source-ai-assisted-literature-review-based-on-open-access-global-equity-and-open-science",
+    "href": "index.html#a-software-and-learning-framework-for-a-self-hosted-open-source-ai-assisted-literature-review-based-on-open-access-global-equity-and-open-science",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "A software and learning framework for a self-hosted open-source AI assisted literature review, based on — open access, global equity, and open science",
+    "text": "A software and learning framework for a self-hosted open-source AI assisted literature review, based on — open access, global equity, and open science\n2nd July 2025\n\nLinks and contact\nLLM RAG GitHub repository (version for working with IPCC reports): https://github.com/semanticClimate/llmrag\n\n\nMission\nThe mission is to build a self-hosted open-source AI LLM RAG (Retrieval-Augmented Generation) assisted literature review system with supporting user learning material. The system is for: using open access literature repositories; is based on open science (open scholarship) principles; is globally equitable, inclusive, and multilingual, and; is independent of commercial providers.\n\n\nObjectives and values\n\nTo create an AI LLM RAG self-hosted platform and infrastructure framework for literature retrieval and knowledge query.\n\nProvide supporting learning resources for AI LLM RAG conceptual models and methods using ‘learning-and-understanding-by-doing’ — its parts and how it impacts the information landscape.\n\nThe system and its supporting learning material is designed so that newcomers can enable competences, help understand the principles involved, and how it impacts the information landscape.\n\nAn approach that implements Global South knowledge participation parity (KPP)*, is global in scope and multilingual.\n\nTo use only open access literature and FAIR data source for AI LLM use.\n\nHow to manage and use your own open-source AI LLM platform and infrastructure that is: accessible to all, is designed for digital sovereignty, and is fully open science based from the start, as uses — open source software, and creates FAIR data outputs.\n\nTo create data sets, such as vector databases, of your own that are fully open source, open licenced, open science in all aspects — including FAIR data.\n\nCreate a Git based template and methodology for working with AI LLMs. The template allows different technologies to be interchanged or for use in different application use cases — chatbots, for research, literature reviews, text search, derivative publishing, etc.\n\nThe technical architecture can run on the command line, in Jupyter Notebooks and Google Colab, and as a Streamlit software UI. It acts as a complete pipeline system that goes from raw-text to knowledge and query.\n\nTo enable the understanding of what are the components needed for an AI LLM system.\n\nThe system is designed for working with and creating text corpora.\n\nAware of climate change impact issues.\n\n*Analogous to the economics framework of purchasing power parity (PPP) which is used for setting regional pricing of products. For PPP indices see: Eurostat data. PPPs convert different currencies into a common unit which equalizes their purchasing power and eliminates differences in price levels between economies. (Eurostat) Please get in contact directly for prices.\n\n\nHow to implement the objectives and values\nOpen\n\nOpen source software licencing\n\nOpen science compliant in all areas and values\n\nFAIR data principles for data use and data production, e.g., in data production, vector databases\n\nAI LLM is open source (where possible)\n\nAI LLM restrictions on republishing content or using content in training? (where possible and if needed)\n\nFull documentation for reproducibility (where possible)\n\nResearch is open science and open notebook science based from the start\n\nAI regulation compliant\n\nDigital sovereignty by design\n\n\nOpen access\n\nUse open access research literature repositories:\n\nRedalyc\n\nOpenAlex\n\nEurope PubMed Central (Europe PMC)\n\nbioRxiv\n\nUkrainian OA repository\n\nUniversity of Pretoria\netc.\n\n\n\n\nGlobal\n\nAI and LLM without geo blocking\n\nMultilingual supporting AI LLM\n\nOpen science knowledge equity values followed — UN Open Science Recommendations\n\n\n\n\nValue proposition\n\nSupport trust in users\n\nAvoid vendor lockin\n\nAim to have higher quality, best of class, literature and data retrieval results\n\nEnable transparency and reproducibility as much as possible\n\nInstitutional knowledge retention\n\nSupport the knowledge commons and biblio-diversity",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "AI Assisted Literature Reviews Course",
+    "section": "LICENSE",
+    "text": "LICENSE\nApache License Version 2.0, January 2004 http://www.apache.org/licenses/ | License information: LICENSE",
+    "crumbs": [
+      "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
   }
 ]
