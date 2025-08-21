@@ -19,3 +19,6 @@
 - ### [AR6/WG2/Chapter-06-Cities, settlements and key infrastructure](https://drive.google.com/file/d/13c69dMA3vzFGl2_vkF9Y49FbYMfeJlwX/view?usp=drive_link)
         - By Harshita Mahawar
 
+- ### [AR6/WG2/Chapter07_Health, wellbeing and the changing structure of communities](https://drive.google.com/file/d/1YbTy_PQxnk5_9CLXF8PvNratzlGdryxY/view?usp=drivesdk)
+        - By Shaik Zainab
+
