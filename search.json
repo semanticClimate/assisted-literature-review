@@ -63,8 +63,8 @@
     "objectID": "index.html#corpus-creation-oa-repository-retreival-and-analysis",
     "href": "index.html#corpus-creation-oa-repository-retreival-and-analysis",
     "title": "AI Assisted Literature Reviews Course",
-    "section": "Corpus creation: OA repository retreival and analysis",
-    "text": "Corpus creation: OA repository retreival and analysis\nRenu Kumari\n\nNotebook – 10.5281/zenodo.16418987\nOutput\nPresentation",
+    "section": "1. Corpus creation: OA repository retreival and analysis",
+    "text": "1. Corpus creation: OA repository retreival and analysis\nRenu Kumari\n\nNotebook – 10.5281/zenodo.16418987\nOutput\nPresentation",
     "crumbs": [
       "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
@@ -73,8 +73,8 @@
     "objectID": "index.html#vibe-coding-coding-with-an-ai-assistant---corpus-creation",
     "href": "index.html#vibe-coding-coding-with-an-ai-assistant---corpus-creation",
     "title": "AI Assisted Literature Reviews Course",
-    "section": "Vibe coding: Coding with an AI assistant - Corpus creation",
-    "text": "Vibe coding: Coding with an AI assistant - Corpus creation\nPeter Murray Rust\n\nSlide notes\nSlides\nDocumentation\nCode",
+    "section": "2. Vibe coding: Coding with an AI assistant - Corpus creation",
+    "text": "2. Vibe coding: Coding with an AI assistant - Corpus creation\nPeter Murray Rust\n\nSlide notes\nSlides\nDocumentation\nCode",
     "crumbs": [
       "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
@@ -83,8 +83,8 @@
     "objectID": "index.html#pdf-summarisation",
     "href": "index.html#pdf-summarisation",
     "title": "AI Assisted Literature Reviews Course",
-    "section": "PDF summarisation",
-    "text": "PDF summarisation\nShabnam Barbhuiya\n\nNotebook – 10.5281/zenodo.16526790\nPresentation",
+    "section": "3. PDF summarisation",
+    "text": "3. PDF summarisation\nShabnam Barbhuiya\n\nNotebook – 10.5281/zenodo.16526790\nPresentation",
     "crumbs": [
       "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
@@ -93,8 +93,8 @@
     "objectID": "index.html#image-classification",
     "href": "index.html#image-classification",
     "title": "AI Assisted Literature Reviews Course",
-    "section": "Image classification",
-    "text": "Image classification\nAmbreen Hamadani\n\nNotebook_Vision Transformers – 10.5281/zenodo.16734915",
+    "section": "4. Image classification",
+    "text": "4. Image classification\nAmbreen Hamadani\n\nNotebook_Vision Transformers – 10.5281/zenodo.16734915",
     "crumbs": [
       "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
@@ -103,8 +103,8 @@
     "objectID": "index.html#image-extraction",
     "href": "index.html#image-extraction",
     "title": "AI Assisted Literature Reviews Course",
-    "section": "Image extraction",
-    "text": "Image extraction\nAvika Joshi\n\nFigSense – Code: 10.5281/zenodo.16752114",
+    "section": "5. Image extraction",
+    "text": "5. Image extraction\nAvika Joshi\n\nFigSense – Code: 10.5281/zenodo.16752114",
     "crumbs": [
       "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
@@ -113,8 +113,8 @@
     "objectID": "index.html#named-entity-recognition-ner-entities-and-concepts",
     "href": "index.html#named-entity-recognition-ner-entities-and-concepts",
     "title": "AI Assisted Literature Reviews Course",
-    "section": "Named entity recognition (NER): Entities and concepts",
-    "text": "Named entity recognition (NER): Entities and concepts\nMoobashara Jawed\n\nNotebook – 10.5281/zenodo.16559426\nPresentation",
+    "section": "6. Named entity recognition (NER): Entities and concepts",
+    "text": "6. Named entity recognition (NER): Entities and concepts\nMoobashara Jawed\n\nNotebook – 10.5281/zenodo.16559426\nPresentation",
     "crumbs": [
       "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
@@ -123,8 +123,8 @@
     "objectID": "index.html#llm-and-rag-for-pdf-and-html",
     "href": "index.html#llm-and-rag-for-pdf-and-html",
     "title": "AI Assisted Literature Reviews Course",
-    "section": "LLM and RAG: For PDF and HTML",
-    "text": "LLM and RAG: For PDF and HTML\nShabnam Barbhuiya and Anna Rahr\n\nNotebook for LLM RAG from PDF/XML – 10.5281/zenodo.16675979\nRepo including Notebook for LLM RAG from HTML – not shown in the course",
+    "section": "7. LLM and RAG: For PDF and HTML",
+    "text": "7. LLM and RAG: For PDF and HTML\nShabnam Barbhuiya and Anna Rahr\n\nNotebook for LLM RAG from PDF/XML – 10.5281/zenodo.16675979\nRepo including Notebook for LLM RAG from HTML – not shown in the course",
     "crumbs": [
       "Using Globally Equitable Open-Source AI LLMs on Open Access Research Literature Repositories"
     ]
