@@ -84,7 +84,7 @@ At the end of the course, participants will be able to:
 1. Named entity recognition (NER): Entities and concepts
 1. LLM and RAG: For PDF and HTML
 
-## Corpus creation: OA repository retreival and analysis
+## 1. Corpus creation: OA repository retreival and analysis
 
 Renu Kumari
 
@@ -92,7 +92,7 @@ Renu Kumari
 - [Output](https://github.com/semanticClimate/assisted-literature-review/tree/main/outputs/corpus_creation_pygetpapers)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/tree/main/presentations)
 
-## Vibe coding: Coding with an AI assistant - Corpus creation
+## 2. Vibe coding: Coding with an AI assistant - Corpus creation
 
 Peter Murray Rust
 
@@ -101,34 +101,34 @@ Peter Murray Rust
 - [Documentation](https://github.com/petermr/pygetpapers/blob/v20/docs/upspace-value-story.md)
 - [Code](https://github.com/petermr/pygetpapers/tree/v20/pygetpapers/repositories/upspace)
   
-## PDF summarisation
+## 3. PDF summarisation
 
 Shabnam Barbhuiya
 
 - Notebook – [10.5281/zenodo.16526790](https://doi.org/10.5281/zenodo.16526790)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/blob/main/presentations/Day_2_FSCI2025_SUMMARIZATION.pdf)
 
-## Image classification
+## 4. Image classification
 
 Ambreen Hamadani
 
 - Notebook_Vision Transformers – [10.5281/zenodo.16734915](https://doi.org/10.5281/zenodo.16734915)
 
-## Image extraction
+## 5. Image extraction
 
 Avika Joshi
 
 - [FigSense](https://figsense.streamlit.app/) 
 – Code: [10.5281/zenodo.16752114](https://doi.org/10.5281/zenodo.16752114)
 
-## Named entity recognition (NER): Entities and concepts
+## 6. Named entity recognition (NER): Entities and concepts
 
 Moobashara Jawed
 
 - Notebook – [10.5281/zenodo.16559426](https://doi.org/10.5281/zenodo.16559426)
 - [Presentation](https://github.com/semanticClimate/assisted-literature-review/blob/main/presentations/DAY_3_FSCI2025_NER.pptx)
 
-## LLM and RAG: For PDF and HTML
+## 7. LLM and RAG: For PDF and HTML
 
 Shabnam Barbhuiya and Anna Rahr
 
